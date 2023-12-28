@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Autumn'; /* Choose a unique name for your font family */
+    src: url('Bombing.ttf') format('truetype'); /* Replace with the actual path to your .ttf font file */
+}
+body {
+    margin: 0;
+    background-image: url('images/scooby.jpg'); /* Replace with the path to your background image */
+    background-size: cover; /* Scale the image to cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment:fixed;
+}
+.container{
+    text-align: center;
+}
+.top-bar {
+    background-color: transparent; /* Background color */
+    color: #fff; /* Text color */
+    padding: 5px 0; /* Padding to create space inside the bar */
+    text-align: left; /* Center-align text */
+    margin: 0;
+    font-family: "Autumn";
+    font-size: 40px;
+    padding-left: 30px;
+    align-items:center;
+}
+.container{
+    margin: 0;
+}
+.container p{
+    color: #ffffff;
+    text-align: left;
+    padding-left: 12%;
+    padding-top: 18%;
+    font-size: 600%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+}
+p1{
+    color: #fff;
+    text-align: left;
+    margin: 0;
+    padding-left: 13%;
+    margin-top: 5%;
+    font-size: 130%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo img{
+    width: auto;
+    height: 100px;
+    padding-left: 2.5%;
+    padding-top: 2%;
+    float: left;
+    margin-right: 20px;
+}
+.nav-list li {
+    display: inline-block; /* Display the buttons inline */
+    margin-right: 20px; /* Add right-side padding between buttons */
+}
+.top-bar{
+    padding-top: 0.7%;
+    float: right;
+    padding-right: 3%;
+}
+.top-bar a1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.top-bar a2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.top-bar a3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30%;
+    padding-left: 5%;
+
+}
+::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scrollbar */
+  }
+.movies{
+    padding-left: 5%;
+    padding-top: 3%;
+    margin-bottom: 10%;
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent posters from wrapping to the next line */
+}
+.movie-poster {
+    display: inline-block; /* Display posters inline */
+    margin-right: 15%; /* Add spacing between posters */
+}
+
+/* Style the poster images */
+.movie-poster img {
+    max-width: 200px; /* Limit the maximum width of each poster */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #ffffff; /* Add a border around each poster */
+    border-radius: 5%;
+}
+iframe{
+    padding-left: 10%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+html {scroll-behavior: smooth;}
